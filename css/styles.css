@@ -129,8 +129,20 @@ h1{
   text-shadow: 0px 3px 3px grey;
 }
 
+.testimonials{
+  background-image: url("../images/testbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 .testimonials-carousel{
-  background-image: url("../images/background.jpg")
+  width: 100%;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
 }
 
 .text-testimonial{
